@@ -21,7 +21,7 @@
 
 redFD_rare <- function(cmnt, trait, spn, cmn_to_rare = FALSE, ...) {
 
-  if (class(cmnt) != "matrix") stop("Community is not of class matrix")
+  if (is.matrix(cmnt)) stop("Community is not of class matrix")
   if (missing(spn)) { spn <- max(rowSums(cmnt)) - 3
   warning(paste("Missing spn, setting to maximum possible ->",spn))}
   if (max(spn) > max(rowSums(cmnt)) - 3) {
