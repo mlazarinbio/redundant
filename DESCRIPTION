@@ -1,0 +1,13 @@
+Package: redundant
+Type: Package
+Title: Estimate functional redundancy
+Version: 0.1.0
+Author: Danai-Eleni Michailidou, Mariana Tsianou, Athanasios Kallimanis
+Maintainer: Danai-Eleni Michailidou <d.e.michailid@gmail.com>
+Description: mpla    mpla    mpla
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: FD (>= 1.0-12), plyr
+Suggests: stringr, parallel
+RoxygenNote: 6.1.0
