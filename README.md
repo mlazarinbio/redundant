@@ -1,1 +1,1 @@
-This package offers various ways to manipulate existing community data or simulate communities and calculate functional diversity indices in order to explore the effects of functional redundnancy.
+This package provides a suite of tools for manipulating existing community composition data or simulating ecological communities. It enables the calculation of a wide range of functional diversity indices, facilitating the exploration of how functional redundancy influences community structure, ecosystem functioning, and biodiversity patterns.

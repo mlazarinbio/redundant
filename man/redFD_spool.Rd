@@ -22,8 +22,8 @@ redFD_spool(cmnt, trait, spool, spn, rep, times, ...)
 \item{...}{arguments to be passed to \code{\link[FD]{dbFD}}.}
 }
 \value{
-A named list with the indices calculated. The names of each element are the species names that were removed from the community. More species than initially specified, may be removed if they had no appearance in the community. Rows with less than 3 species are removed from the result with a warning. If a community has 0 rows, it is removed with a warning.
+A named list with the indices calculated. The names of each element are the species names that were removed from the community. More species than initially specified, may be removed if they had no appearance in the community. Sites, i.e. rows with less than 3 species are removed and  a warning is printed. If a community has 0 rows, it is removed with a warning.
 }
 \description{
-Calculate functional diversity indices for a community after the removal of a specific number of species taking into account the regional species pools (based on FD package)
+Calculate functional diversity indices for a community (after the removal of a specific number of species) taking into account the regional species pools (based on FD package)
 }
